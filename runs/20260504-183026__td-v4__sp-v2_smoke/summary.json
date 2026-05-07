@@ -1,0 +1,47 @@
+{
+  "run_id": "20260504-183026",
+  "tool_description_id": "v4",
+  "system_prompt_id": "v2",
+  "n": 5,
+  "n_tool_calls_avg": 1.4,
+  "tool_use": {
+    "accuracy": 0.8,
+    "precision": 1.0,
+    "recall": 0.8,
+    "tp": 4,
+    "fp": 0,
+    "tn": 0,
+    "fn": 1
+  },
+  "answer_correctness": {
+    "n": 5,
+    "n_correct": 4,
+    "accuracy": 0.8,
+    "n_tool_called": 4,
+    "pct_tool_called": 0.8,
+    "by_tool_called": {
+      "true": {
+        "n": 4,
+        "n_correct": 4,
+        "accuracy": 1.0
+      },
+      "false": {
+        "n": 1,
+        "n_correct": 0,
+        "accuracy": 0.0
+      }
+    },
+    "by_category": {
+      "tv": {
+        "n": 5,
+        "n_correct": 4,
+        "accuracy": 0.8
+      }
+    }
+  },
+  "tool_not_required": {
+    "n": 0,
+    "n_tool_called": 0,
+    "pct_tool_called": 0.0
+  }
+}

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Environment + secrets
+.env
+.env.local
+
+# Project artifacts
+cache/
+data/*.partial.jsonl
+data/*_smoke.jsonl
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+.claude/
+
+# Don't want other people knowing about what Anthropic's takehome is
+TAKEHOME.md

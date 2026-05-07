@@ -1,0 +1,6 @@
+anthropic>=0.96.0
+requests>=2.32.0
+python-dotenv>=1.0.0
+tqdm>=4.67.0
+scipy>=1.13.0
+pytest>=8.0.0

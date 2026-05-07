@@ -1,0 +1,52 @@
+{
+  "run_id": "20260504-170919",
+  "tool_description_id": "v1",
+  "system_prompt_id": "v1",
+  "n": 452,
+  "n_tool_calls_avg": 0.9026548672566371,
+  "tool_use": {
+    "accuracy": 0.7721238938053098,
+    "precision": 1.0,
+    "recall": 0.7317708333333334,
+    "tp": 281,
+    "fp": 0,
+    "tn": 68,
+    "fn": 103
+  },
+  "answer_correctness": {
+    "n": 384,
+    "n_correct": 241,
+    "accuracy": 0.6276041666666666,
+    "n_tool_called": 281,
+    "pct_tool_called": 0.7317708333333334,
+    "by_tool_called": {
+      "true": {
+        "n": 281,
+        "n_correct": 226,
+        "accuracy": 0.8042704626334519
+      },
+      "false": {
+        "n": 103,
+        "n_correct": 15,
+        "accuracy": 0.14563106796116504
+      }
+    },
+    "by_category": {
+      "sports": {
+        "n": 185,
+        "n_correct": 113,
+        "accuracy": 0.6108108108108108
+      },
+      "tv": {
+        "n": 199,
+        "n_correct": 128,
+        "accuracy": 0.6432160804020101
+      }
+    }
+  },
+  "tool_not_required": {
+    "n": 68,
+    "n_tool_called": 0,
+    "pct_tool_called": 0.0
+  }
+}
